@@ -656,13 +656,13 @@
                             <label>Узор:</label>
                             <div class="pattern-grid">
                                 <button class="pattern-btn" onclick="setPattern('top', 'gradient')"
-                                    style="background: linear-gradient(45deg, #667eea, #764ba2)">Градиент</button>
+                                    style="background: linear-gradient(45deg, #aea8ff, #edabff)">Градиент</button>
                                 <button class="pattern-btn" onclick="setPattern('top', 'dots')"
                                     style="background: radial-gradient(circle, #333 20%, transparent 20%), radial-gradient(circle, #333 20%, transparent 20%); background-size: 10px 10px; background-position: 0 0, 5px 5px;">Точки</button>
                                 <button class="pattern-btn" onclick="setPattern('top', 'stripes')"
                                     style="background: repeating-linear-gradient(45deg, #333, #333 10px, #666 10px, #666 20px);">Полосы</button>
                                 <button class="pattern-btn active" onclick="setPattern('top', 'waves')"
-                                    style="background: repeating-linear-gradient(90deg, #667eea 0px, #764ba2 50px, #667eea 100px);">Волны</button>
+                                    style="background: repeating-linear-gradient(90deg, #aea8ff 0px, #edabff 50px, #aea8ff 100px);">Волны</button>
                                 <button class="pattern-btn" onclick="setPattern('top', 'grid')"
                                     style="background: linear-gradient(#333 1px, transparent 1px), linear-gradient(90deg, #333 1px, transparent 1px); background-size: 15px 15px;">Сетка</button>
                                 <button class="pattern-btn" onclick="setPattern('top', 'rainbow')"
@@ -672,9 +672,9 @@
                         <div class="text-controls">
                             <label>Цвета узора:</label>
                             <div class="two-columns">
-                                <input data-jscolor="{hash:true}" id="top-pattern-color1" value="#667eea"
+                                <input data-jscolor="{hash:true}" id="top-pattern-color1" value="#aea8ff"
                                     class="color-input" onchange="redraw()">
-                                <input data-jscolor="{hash:true}" id="top-pattern-color2" value="#764ba2"
+                                <input data-jscolor="{hash:true}" id="top-pattern-color2" value="#edabff"
                                     class="color-input" onchange="redraw()">
                             </div>
                         </div>
@@ -791,13 +791,13 @@
                             <label>Узор:</label>
                             <div class="pattern-grid">
                                 <button class="pattern-btn" onclick="setPattern('bottom', 'gradient')"
-                                    style="background: linear-gradient(45deg, #667eea, #764ba2)">Градиент</button>
+                                    style="background: linear-gradient(45deg, #aea8ff, #edabff)">Градиент</button>
                                 <button class="pattern-btn" onclick="setPattern('bottom', 'dots')"
                                     style="background: radial-gradient(circle, #333 20%, transparent 20%), radial-gradient(circle, #333 20%, transparent 20%); background-size: 10px 10px; background-position: 0 0, 5px 5px;">Точки</button>
                                 <button class="pattern-btn" onclick="setPattern('bottom', 'stripes')"
                                     style="background: repeating-linear-gradient(45deg, #333, #333 10px, #666 10px, #666 20px);">Полосы</button>
                                 <button class="pattern-btn active" onclick="setPattern('bottom', 'waves')"
-                                    style="background: repeating-linear-gradient(90deg, #667eea 0px, #764ba2 50px, #667eea 100px);">Волны</button>
+                                    style="background: repeating-linear-gradient(90deg, #aea8ff 0px, #edabff 50px, #aea8ff 100px);">Волны</button>
                                 <button class="pattern-btn" onclick="setPattern('bottom', 'grid')"
                                     style="background: linear-gradient(#333 1px, transparent 1px), linear-gradient(90deg, #333 1px, transparent 1px); background-size: 15px 15px;">Сетка</button>
                                 <button class="pattern-btn" onclick="setPattern('bottom', 'rainbow')"
@@ -807,9 +807,9 @@
                         <div class="text-controls">
                             <label>Цвета узора:</label>
                             <div class="two-columns">
-                                <input data-jscolor="{hash:true}" id="bottom-pattern-color1" value="#667eea"
+                                <input data-jscolor="{hash:true}" id="bottom-pattern-color1" value="#aea8ff"
                                     class="color-input" onchange="redraw()">
-                                <input data-jscolor="{hash:true}" id="bottom-pattern-color2" value="#764ba2"
+                                <input data-jscolor="{hash:true}" id="bottom-pattern-color2" value="#edabff"
                                     class="color-input" onchange="redraw()">
                             </div>
                         </div>
@@ -1774,6 +1774,11 @@
 
         redraw();
     </script>
+    <script defer
+        src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516"
+        integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg=="
+        data-cf-beacon='{"version":"2024.11.0","token":"a0bf499c9afa45e999b27e879dea4cd3","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}'
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
